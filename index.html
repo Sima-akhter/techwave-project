@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Wave</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body class="bg-gradient-to-b from-[#0f0624] to-[#1a0b3d] text-white">
@@ -35,11 +36,11 @@
 
     <section style="background-image: url('./assets/hero-bg.png');"
         class=" relative min-h-screen flex items-center justify-center text-center px-6  bg-cover bg-center overflow-hidden">
-        <div class="relative z-10 flex flex-col items-center">
+        <div class="relative z-10 flex flex-col items-center ">
             <div class="relative mt-16 md:mt-0 w-80 h-80 md:w-96 md:h-96
              flex items-center justify-center shadow-2xl ">
 
-                <img src="./assets/hero-circle.png" alt="" class="absolute inset-0 w-full h-full  object-cover" />
+                <img src="./assets/hero-circle.png" alt="" class="mic-bg-animate absolute inset-0 w-full h-full  object-cover" />
 
                 <span class="absolute top-14 md:top-8 right-2 md:right-8  bg-green-400 text-black hover:bg-green-300 text-xs font-semibold
                px-3 py-1 rounded-full z-20">
@@ -47,10 +48,11 @@
                 </span>
 
                 <div class="relative z-10 w-40 h-40 sm:w-44 sm:h-44  flex items-center justify-center">
-                    <img src="./assets/microphone.png" alt="Microphone" class="w-20 sm:w-24" />
+                    <img src="./assets/microphone.png" alt="Microphone" class="w-20 sm:w-24 " />
                 </div>
 
-            </div>
+            </div> 
+
 
             <!-- Text -->
             <h1 class="text-4xl sm:text-5xl font-bold mt-8">
@@ -393,7 +395,8 @@
 
 
     <!-- ================= FOOTER ================= -->
-    <footer style="background-image: url(./assets/footer-bg.png);" class="relative w-full py-16 px-6 bg-cover bg-center overflow-hidden">
+    <footer style="background-image: url(./assets/footer-bg.png);"
+        class="relative w-full py-16 px-6 bg-cover bg-center overflow-hidden">
         <div class="relative z-10 flex flex-col items-center text-center">
 
             <img src="./assets/TechWave.png" alt="TechWave Logo" class="h-12 sm:h-14 mb-6" />
